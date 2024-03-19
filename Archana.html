@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARCHANA</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .container {
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    .letter {
+        display: inline-block;
+        font-size: 60px;
+        font-weight: bold;
+        color: #3498db;
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #3498db, 0 0 50px #3498db, 0 0 60px #3498db, 0 0 70px #3498db;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #29da0e, 0 0 20px #103ed5, 0 0 30px #d359cb, 0 0 40px #3607b7, 0 0 50px #d6f705, 0 0 60px #f06108, 0 0 70px #3498db;
+        }
+        to {
+            text-shadow: 0 0 20px #b11a1a, 0 0 30px #b81111, 0 0 40px #dc1313, 0 0 50px #27075b, 0 0 60px #5f14c7, 0 0 70px #300cb1, 0 0 80px #3498db;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="letter">A</div>
+    <div class="letter">R</div>
+    <div class="letter">C</div>
+    <div class="letter">H</div>
+    <div class="letter">A</div>
+    <div class="letter">N</div>
+    <div class="letter">A</div>
+    <div class="letter"> .V</div>
+</div>
+</body>
+</html>
